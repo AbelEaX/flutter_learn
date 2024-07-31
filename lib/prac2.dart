@@ -72,7 +72,7 @@ class _Prac2State extends State<Prac2> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
-                      margin: EdgeInsets.all(25),
+                      margin: EdgeInsets.only(left: 25, right: 25, top: 5),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -417,7 +417,7 @@ class _Prac2State extends State<Prac2> {
                   ),
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 5,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 25, right: 25),
@@ -456,8 +456,7 @@ class _Prac2State extends State<Prac2> {
                   ),
                 ),
                 Padding(
-                  padding:
-                      const EdgeInsets.only(left: 25.0, top: 15, right: 20),
+                  padding: const EdgeInsets.only(left: 25.0, top: 2, right: 20),
                   child: Text(
                     'Product designer at @airbnb with a love for exploring the great outdoors. Creating beautiful interfaces and seemless user experiences in my jam!',
                     style: TextStyle(
@@ -465,7 +464,7 @@ class _Prac2State extends State<Prac2> {
                   ),
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 5,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 25.0, right: 25.0),
@@ -496,7 +495,7 @@ class _Prac2State extends State<Prac2> {
                       Text(
                         '9 stories',
                         style: TextStyle(
-                            color: Colors.black,
+                            color: Color.fromARGB(255, 8, 8, 8),
                             fontSize: 18,
                             fontWeight: FontWeight.w700),
                       ),
@@ -511,7 +510,7 @@ class _Prac2State extends State<Prac2> {
                   ),
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 0,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 25),
@@ -539,7 +538,7 @@ class _Prac2State extends State<Prac2> {
                   ),
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 5,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 25.0, right: 25),
