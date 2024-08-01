@@ -374,7 +374,7 @@ class _Prac4State extends State<Prac4> {
                                     Text(
                                       'Cost per player:',
                                       style: TextStyle(
-                                          fontSize: 25,
+                                          fontSize: 16,
                                           fontWeight: FontWeight.w700,
                                           color: Color.fromARGB(
                                               255, 255, 255, 255)),
@@ -382,7 +382,7 @@ class _Prac4State extends State<Prac4> {
                                     Text(
                                       '\£',
                                       style: TextStyle(
-                                          fontSize: 25,
+                                          fontSize: 16,
                                           fontWeight: FontWeight.w700,
                                           color: Color.fromARGB(
                                               255, 255, 255, 255)),

@@ -41,6 +41,7 @@ import 'package:flutter/material.dart';
 //import 'prac2.dart';
 //import 'prac3.dart';
 import 'prac4.dart';
+import 'prac5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -58,7 +59,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           scaffoldBackgroundColor: Colors.grey[200],
           primaryColor: Colors.grey[500]),
-      home: Prac4(title: 'y'),
+      home: Prac5(title: 'y'),
       //title: 'Flutter Demo Home Page'
     );
   }
