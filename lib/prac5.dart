@@ -150,6 +150,17 @@ class _Prac5State extends State<Prac5> {
                       color: const Color.fromARGB(255, 255, 255, 255)),
                 ),
               ),
+              Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/dp2.png'),
+                    ),
+                  ),
+                  Icon(Icons.water_drop_outlined)
+                ],
+              ),
             ],
           ),
         ],
