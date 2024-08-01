@@ -139,13 +139,17 @@ class _Prac5State extends State<Prac5> {
                   ),
                 ),
               ),
-              Text(
-                'Filming some behind the  scenes;)',
-                style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: 18,
-                    color: const Color.fromARGB(255, 255, 255, 255)),
-              )
+              Positioned(
+                top: 780,
+                left: 30,
+                child: Text(
+                  'Filming some behind the  scenes;)',
+                  style: TextStyle(
+                      fontWeight: FontWeight.w400,
+                      fontSize: 16,
+                      color: const Color.fromARGB(255, 255, 255, 255)),
+                ),
+              ),
             ],
           ),
         ],
