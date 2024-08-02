@@ -36,12 +36,13 @@ import 'package:flutter/material.dart';
 //import 'social1.dart';
 //import 'social3.dart';
 //import 'social4.dart';
+import 'social6.dart';
 //import 'prac1.dart';
 //import 'DistortedContainer.dart';
 //import 'prac2.dart';
 //import 'prac3.dart';
-import 'prac4.dart';
-import 'prac5.dart';
+//import 'prac4.dart';
+//import 'prac5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -57,9 +58,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-          scaffoldBackgroundColor: Colors.grey[200],
+          scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
           primaryColor: Colors.grey[500]),
-      home: Prac5(title: 'y'),
+      home: Social6(title: 'y'),
       //title: 'Flutter Demo Home Page'
     );
   }
