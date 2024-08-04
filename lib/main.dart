@@ -36,7 +36,8 @@ import 'package:flutter/material.dart';
 //import 'social1.dart';
 //import 'social3.dart';
 //import 'social4.dart';
-import 'social6.dart';
+//import 'social6.dart';
+import 'social7.dart';
 //import 'prac1.dart';
 //import 'DistortedContainer.dart';
 //import 'prac2.dart';
@@ -60,7 +61,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
           primaryColor: Colors.grey[500]),
-      home: Social6(title: 'y'),
+      home: Social7(title: 'y'),
       //title: 'Flutter Demo Home Page'
     );
   }
