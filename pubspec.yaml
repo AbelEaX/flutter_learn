@@ -30,7 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    font_awesome_flutter: ^10.4.0
+    #font_awesome_flutter: ^10.4.0
     #readmore: ^2.1.0
     #flutter_circle_flags_svg: ^1.0.4
 
