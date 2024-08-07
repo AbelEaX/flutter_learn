@@ -6,6 +6,7 @@
 //import 'package:appui1/social1.dart';
 
 //import 'package:appui1/social3.dart';
+import 'package:appui1/placeorder3.dart';
 import 'package:flutter/material.dart';
 //import 'screen1.dart';
 //import 'screen2.dart';
@@ -37,13 +38,16 @@ import 'package:flutter/material.dart';
 //import 'social3.dart';
 //import 'social4.dart';
 //import 'social6.dart';
-import 'social7.dart';
+//import 'social7.dart';
 //import 'prac1.dart';
 //import 'DistortedContainer.dart';
 //import 'prac2.dart';
 //import 'prac3.dart';
 //import 'prac4.dart';
 //import 'prac5.dart';
+import 'placeorder.dart';
+import 'placeorder2.dart';
+import 'placeorder3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -61,7 +65,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
           primaryColor: Colors.grey[500]),
-      home: Social7(title: 'y'),
+      home: Placeorder3(
+        title: 'f',
+      ),
       //title: 'Flutter Demo Home Page'
     );
   }

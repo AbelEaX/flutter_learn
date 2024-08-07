@@ -95,6 +95,10 @@ flutter:
    - assets/pl2.jpg
    - assets/pl3.jpg
    - assets/pl4.jpg
+   - assets/wood.png
+   - assets/electrician.png
+   - assets/clean.png
+   - assets/repair.png
 
    
 
