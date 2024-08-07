@@ -15,15 +15,16 @@ class Distortedcontainer extends StatelessWidget {
       child: Align(
         alignment: Alignment.topLeft,
         child: Container(
-            width: 200,
-            height: 100,
-            color: Colors.black,
-            child: Center(
-              child: Text(
-                'Distoreted Container',
-                style: TextStyle(color: Colors.white, fontSize: 16),
-              ),
-            )),
+          width: 200,
+          height: 100,
+          color: Colors.black,
+          child: Center(
+            child: Text(
+              'Distoreted Container',
+              style: TextStyle(color: Colors.white, fontSize: 16),
+            ),
+          ),
+        ),
       ),
     );
   }
