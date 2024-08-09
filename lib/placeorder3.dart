@@ -14,7 +14,10 @@ class _Placeorder3State extends State<Placeorder3> {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 236, 252, 255),
       appBar: AppBar(
-        leading: const Icon(Icons.arrow_back_ios),
+        leading: const Icon(
+          Icons.arrow_back_ios,
+          color: Colors.black,
+        ),
         title: const Text('Select location',
             style: TextStyle(fontSize: 25, fontWeight: FontWeight.w700)),
       ),
